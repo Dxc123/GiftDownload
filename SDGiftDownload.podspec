@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SDGiftDownload"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "业务礼物下载模块"
 
   # This description is used to generate tags and improve search results.
@@ -28,14 +28,14 @@ Pod::Spec.new do |spec|
   结合业务，礼物下载模块
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/SDGiftDownload"
+  spec.homepage     = "https://github.com/Dxc123/SDGiftDownload"
   spec.license      = "MIT"
  
   spec.author             = { "dxc_123" => "daixingchuang@163.com" }
 
   spec.source       = { :git => "https://github.com/Dxc123/SDGiftDownload.git", :tag => spec.version.to_s}
 
-  spec.source_files  = "SDGiftDownload", "SDGiftDownload/**/*.{h,m}"
+  spec.source_files  = "SDGiftDownload/Download/**/*.{h,m}"
    # s.public_header_files = 'SDGiftDownload/**/*.{h}'
  
   spec.requires_arc = true
