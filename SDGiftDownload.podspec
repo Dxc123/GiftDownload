@@ -31,12 +31,12 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/Dxc123/SDGiftDownload"
   spec.license      = "MIT"
  
-  spec.author             = { "dxc_123" => "daixingchuang@163.com" }
+  spec.author       = { "dxc_123" => "daixingchuang@163.com" }
 
   spec.source       = { :git => "https://github.com/Dxc123/SDGiftDownload.git", :tag => spec.version.to_s}
 
   spec.source_files  = "SDGiftDownload/Download/**/*.{h,m}"
-   # s.public_header_files = 'SDGiftDownload/**/*.{h}'
+  spec.public_header_files = 'SDGiftDownload/Download/SDGiftDownloadHeader.h}'
  
   spec.requires_arc = true
   spec.ios.deployment_target  = '11.0'
