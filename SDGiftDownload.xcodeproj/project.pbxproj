@@ -47,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C03494902785FFD8009B750C /* SDGiftDownloadHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDGiftDownloadHeader.h; sourceTree = "<group>"; };
 		C0A44F6D2785C1C40076DF16 /* SDGiftDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDGiftDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A44F702785C1C40076DF16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0A44F712785C1C40076DF16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,7 +71,6 @@
 		C0A44FAA2785C1F20076DF16 /* SGCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGCacheManager.h; sourceTree = "<group>"; };
 		C0A44FAB2785C1F20076DF16 /* SGDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGDownloadManager.h; sourceTree = "<group>"; };
 		C0A44FAC2785C1F20076DF16 /* SGDownloadQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGDownloadQueue.h; sourceTree = "<group>"; };
-		C0A44FAD2785C1F20076DF16 /* SGDwonload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGDwonload.h; sourceTree = "<group>"; };
 		C0A44FAE2785C1F20076DF16 /* SGDownloadSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGDownloadSession.m; sourceTree = "<group>"; };
 		C0A44FAF2785C1F20076DF16 /* NSString+SGHashString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SGHashString.h"; sourceTree = "<group>"; };
 		C0A44FB02785C1F20076DF16 /* NSURLSession+SGDownloadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+SGDownloadTask.h"; sourceTree = "<group>"; };
@@ -171,6 +171,7 @@
 		C0A44FA52785C1F20076DF16 /* Download */ = {
 			isa = PBXGroup;
 			children = (
+				C03494902785FFD8009B750C /* SDGiftDownloadHeader.h */,
 				C0A44FA62785C1F20076DF16 /* SGDwonload */,
 				C0A44FB62785C1F30076DF16 /* Model */,
 				C0A44FBB2785C1F30076DF16 /* SDGiftDownloadManager */,
@@ -195,7 +196,6 @@
 				C0A44FB42785C1F30076DF16 /* SGDownloadQueue.m */,
 				C0A44FB52785C1F30076DF16 /* SGDownloadSession.h */,
 				C0A44FAE2785C1F20076DF16 /* SGDownloadSession.m */,
-				C0A44FAD2785C1F20076DF16 /* SGDwonload.h */,
 			);
 			path = SGDwonload;
 			sourceTree = "<group>";
