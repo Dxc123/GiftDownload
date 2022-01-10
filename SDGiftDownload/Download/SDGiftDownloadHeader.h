@@ -14,4 +14,5 @@
 #import "SGDownloadModel.h"
 
 #import "SDGiftDownloadManager.h"
+
 #endif /* SDGiftDownloadHeader_h */

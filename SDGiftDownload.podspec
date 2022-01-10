@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SDGiftDownload"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.3"
   spec.summary      = "业务礼物下载模块"
 
   # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/Dxc123/SDGiftDownload.git", :tag => spec.version.to_s}
 
   spec.source_files  = "SDGiftDownload/Download/**/*.{h,m}"
-  spec.public_header_files = 'SDGiftDownload/Download/SDGiftDownloadHeader.h}'
+  spec.public_header_files = 'SDGiftDownload/Download/SDGiftDownload.h}'
  
   spec.requires_arc = true
   spec.ios.deployment_target  = '11.0'

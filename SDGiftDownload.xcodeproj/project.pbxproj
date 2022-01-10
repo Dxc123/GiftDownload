@@ -48,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		C03494902785FFD8009B750C /* SDGiftDownloadHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDGiftDownloadHeader.h; sourceTree = "<group>"; };
+		C0A059DB2786B8C400F95C86 /* SDGiftDownload.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDGiftDownload.h; sourceTree = "<group>"; };
 		C0A44F6D2785C1C40076DF16 /* SDGiftDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDGiftDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A44F702785C1C40076DF16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0A44F712785C1C40076DF16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -171,6 +172,7 @@
 		C0A44FA52785C1F20076DF16 /* Download */ = {
 			isa = PBXGroup;
 			children = (
+				C0A059DB2786B8C400F95C86 /* SDGiftDownload.h */,
 				C03494902785FFD8009B750C /* SDGiftDownloadHeader.h */,
 				C0A44FA62785C1F20076DF16 /* SGDwonload */,
 				C0A44FB62785C1F30076DF16 /* Model */,
